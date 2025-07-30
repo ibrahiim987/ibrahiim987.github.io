@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Ibrahim Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Muhammad Ibrahim</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">Services</a></div>
+                
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Contact </a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">Projects</a>
+                <a href="">Skills</a>
+                <a href="">Services</a>
+               
+                <a href="">Contact </a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="main_bg.png" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Ibrahim</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">I’m a passionate Flutter developer who loves turning ideas into smooth, functional mobile apps. With a strong eye for UI and a solid grasp of clean architecture, I build apps that are fast, modern, and user-friendly.</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="#" ><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+         <section id="projects" >
+            <h2><span>My</span> Projects</h2>
+  <div class="projects-wrapper">
+    <div class="project-card">
+        <img src="main_bg.png" alt="Project Image">
+        <h3>Quill AI</h3>
+        <p>An AI-powered app to chat with PDFs and images using Gemini AI.</p>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="main_bg.png" alt="Project Image">
+        <h3>Quill AI</h3>
+        <p>An AI-powered app to chat with PDFs and images using Gemini AI.</p>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="main_bg.png" alt="Project Image">
+        <h3>Quill AI</h3>
+        <p>An AI-powered app to chat with PDFs and images using Gemini AI.</p>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="main_bg.png" alt="Project Image">
+        <h3>Quill AI</h3>
+        <p>An AI-powered app to chat with PDFs and images using Gemini AI.</p>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
+        </div>
+      </div>
+  </div>
+ 
+  
+</section>
+<section id="skills">
+    <h2><span>My</span> Skills</h2>
+  
+    <div class="skill-row">
+      <div class="skill">
+        <div class="skill-name">Flutter</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Dart</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Firebase</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+      </div>
+    </div>
+  
+    <div class="skill-row">
+      <div class="skill">
+        <div class="skill-name">Provider</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">GetX</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Bloc</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+      </div>
+    </div>
+  
+    <div class="skill-row">
+      <div class="skill">
+        <div class="skill-name">REST APIs</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Hive</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Git & GitHub</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+      </div>
+    </div>
+  
+    <div class="skill-row">
+      <div class="skill">
+        <div class="skill-name">Figma to Flutter</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Gemini AI</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Web Scraping</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <h2><span>My</span> Services</h2>
+    <div class="services-wrapper">
+      <div class="service-card">
+        <h3>Flutter App Development</h3>
+        <p>Building responsive and performant mobile apps using Flutter for Android and iOS.</p>
+      </div>
+      <div class="service-card">
+        <h3>UI to Flutter</h3>
+        <p>Converting Figma, Adobe XD, or Sketch designs into beautiful Flutter UIs.</p>
+      </div>
+      <div class="service-card">
+        <h3>State Management</h3>
+        <p>Implementing Provider, Bloc, and GetX for scalable Flutter apps.</p>
+      </div>
+      <div class="service-card">
+        <h3>API Integration</h3>
+        <p>Connecting your app to RESTful APIs and managing network requests securely.</p>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
