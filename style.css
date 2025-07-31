@@ -11,6 +11,8 @@ html{
     overflow-x: hidden;
     overflow-y: auto;
     scroll-behavior: smooth;
+    
+  -webkit-text-size-adjust: 100%;
 }
 
 body{
@@ -492,6 +494,7 @@ section {
     .main-container{
         display: flex;
         flex-direction: column;
+        padding: 0 10px; /* Add this */
     }
     .content .typewriter {
         font-size: 2rem;
@@ -509,6 +512,7 @@ section {
 
     .main-container .content{
         width: 80%;
+        padding: 0 10px; /* Add this */
     }
 
     .social-links i{
@@ -526,7 +530,9 @@ section {
         
     }
     .project-card {
-        width: 80%;
+        width: 100%;
+  padding: 15px 10px; /* Decrease left/right padding */
+  margin: 0 auto;
        
       }
       .project-card img {
@@ -537,7 +543,7 @@ section {
         margin-bottom: 15px;
       }
       .projects-wrapper {
-        padding: 0 16px; /* Add left/right space on mobile */
+        padding: 0 10px; /* Add left/right space on mobile */
       }
        #skills {
     padding: 80px 40px;
