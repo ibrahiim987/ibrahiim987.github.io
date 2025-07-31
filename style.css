@@ -155,7 +155,7 @@ section {
 }
 
 .main-container .image img{
-    width: 60%;
+    width: 100%;
 }
 
 .main-container .content{
@@ -287,18 +287,29 @@ section {
     color: black;
   }
   .project-card {
-    width: 300px; /* ⬅️ reduce from 350px or more if it's larger */
+    width: 550px;
     padding: 20px;
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: 
+      transform 0.3s ease, 
+      box-shadow 0.3s ease, 
+      background-color 0.4s ease, 
+      color 0.4s ease;
+    color: #333;
   }
   .project-card:hover {
+    background-color: rgb(109,67,0); /* brown background */
+    color: white;
     transform: translateY(-5px);
     box-shadow: 0 0 20px rgba(109, 67, 0, 0.4);
   }
+  .project-card:hover h3,
+.project-card:hover p {
+  color: white;
+}
   .project-card img {
     width: 100%;
     height: 280px;
@@ -466,7 +477,7 @@ section {
     transform: translateY(-5px);
   }
   
-@media (max-width:884px) {
+@media (max-width:700px) {
     body{
         overflow-y: visible;
     }
@@ -512,7 +523,7 @@ section {
     .main-container .image{
         width: 80%;
         margin-bottom: 0px;
-        margin-left: 30%;
+        
     }
     .project-card {
         width: 80%;
