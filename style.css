@@ -286,7 +286,7 @@ section {
     color: rgb(109,67,0);
     text-shadow: 0 0 10px rgb(109,67,0);
     margin-bottom: 3rem;
-    text-transform: uppercase;
+    
   }
   
   #projects h2 span {
@@ -367,7 +367,7 @@ section {
     color: rgb(109,67,0);
     text-shadow: 0 0 10px rgb(109,67,0);
     margin-bottom: 3rem;
-    text-transform: uppercase;
+   
   }
   
   #skills h2 span {
@@ -424,7 +424,7 @@ section {
     color: rgb(109,67,0);
     text-shadow: 0 0 10px rgb(109,67,0);
     margin-bottom: 3rem;
-    text-transform: uppercase;
+    
     text-align: center;
   }
   
