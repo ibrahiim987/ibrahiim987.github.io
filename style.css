@@ -505,17 +505,20 @@ section {
         padding-top: 0;
         padding-bottom: 0;
       }
-    .content .typewriter {
+      .content h1{
         font-size: 2rem;
       }
+    .content .typewriter {
+        font-size: 1.5rem;
+      }
       .content .typewriter span {
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
     .nav-container .links{
         display: none;
     }
 
-    .hamburg,.cancel{
+    .hamburg,.cancel{   
         display: block;
     }
 
