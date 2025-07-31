@@ -494,7 +494,7 @@ section {
     .main-container{
         display: flex;
         flex-direction: column;
-        padding: 0 10px; /* Add this */
+         /* Add this */
     }
     .content .typewriter {
         font-size: 2rem;
@@ -512,7 +512,7 @@ section {
 
     .main-container .content{
         width: 80%;
-        padding: 0 10px; /* Add this */
+         /* Add this */
     }
 
     .social-links i{
@@ -537,7 +537,7 @@ section {
       }
       .project-card img {
         width: 100%;
-        height: 150px; /* shorter height for landscape */
+        height: 200px; /* shorter height for landscape */
         object-fit: cover;
         border-radius: 8px;
         margin-bottom: 15px;
