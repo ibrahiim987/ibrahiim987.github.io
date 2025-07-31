@@ -556,6 +556,21 @@ section {
     border: 2px solid rgb(109,67,0);
     box-shadow: 0 0 15px rgb(109,67,0);
   }
+
+  footer {
+    background-color: rgb(109, 67, 0);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+    margin: 0;
+  }
   
 @media (max-width:768px) {
     body{
